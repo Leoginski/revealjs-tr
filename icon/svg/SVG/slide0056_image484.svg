@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   viewBox="0 0 86 85"
+   height="85"
+   width="86"
+   xml:space="preserve"
+   id="svg2"
+   version="1.1"><metadata
+     id="metadata8"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs6"><mask
+       id="mask14"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       maskUnits="userSpaceOnUse"><image
+         id="image16"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFYAAABVCAAAAAD2qUyFAAAAAXNCSVQI5gpbmQAAAqBJREFUWIXtmU1oE0EcxV/aqsH4QbUKxkBBRBRKbaFaxINCk1DrB4JKPQSLeOqhgnjSCgrFo6IeqnjRCqKHVqlWIgUPHgRBwaAQGiuVSmmsYkHSFEqTjodJspmdmd3Nzgoi804z7/3nt5Pdnc1mAmg5Uw3TW17ZiA1DfmHJstlYGgCCe4YAAGd65gRVvtFe8RE2E4kO0Um+IccBAIFRYdWwZOLBrJh6lMbDhCy20em/EpU9rgx7mqb3CCEk0wIAWP1eGXuehtdob2YbAGDjZ0XsVZr1FvsTmwAAW6ZVsEu3adRtWIm1AICm76UaEbaGo0925H3FNkkBADr7jXjns+gCgETjumLN/juSeTKzTXFBNMd8BPOd1CaYbRUHqao2GbufsM6R+2wuWkQ81qztLwImp+u67SBbbOhlHeedu6SKrY3XC9y+bjWs/3mD0O/vVMH6BvdKkodRBeyDg7Kk+mmra+zNmDxbObLDJfbyWatj1sVDrrA9V6yoQH281gX21C1rKtAQNy8Ue+zhATsq0Dq4SpLwT7CCxptytEFiF0xRumOx0JJR5dixUmvSHC0kZINKsn/UYAU3xv5NwQHWjTRWYzVWYzVWY/8lLPcSL3+ZKUn6hW5o5BdhjWzOC2wyaV9j1n93yTRWY51JtH3lYJWJ5W9eX2jt8hB7sm+rVewSe+KRde7u3AZu8B6zReIO2xzkvXl1rOBB/uliec/duV3inGRkprzr0XJIsVSPsF/C06zhCfZreMrkeIH9FuZ+FnuAnQpPcB6PzeftSZmydjoyzhfwN9iaY8aOqESkxWj/iIzJCwH53rilfjYKWYrndjb68S9gf7d/EAdK2Ez7O0migs0eeOugKlTh1ZrfJ2eV3WBzd538CWRo4HVF5Voe6Q/nKQVwMnnOhwAAAABJRU5ErkJggg=="
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeSpeed"
+         height="1"
+         width="1" /></mask></defs><g
+     transform="matrix(1.3333333,0,0,-1.3333333,0,85)"
+     id="g10"><g
+       transform="scale(64.5,63.75)"
+       id="g12"><image
+         id="image18"
+         mask="url(#mask14)"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFYAAABVCAYAAADTwhNZAAAABHNCSVQICAgIfAhkiAAABQNJREFUeJztnc1u6jgYQI/zV6CtdBd3M+/QZauKBU/Sd0mGvloXVYUqsag0fYnR/EEmEJLMwgnTe0kgIXZCqY8UdRHifD117M8GvorpdJphUI7VdwDnihGriZMT+/z83Ol1unDqvnA2m2FZFpZlkSSJ8kBs2yZNUzabTel5PwsAeBTT0vOe5zGfzyuvPxbP81iv19ze3ja6rrbYAtu2EUI0vexgm4XUyWSyc97/FsDfwCX4fwQ8OrtywzBkNBpxeXnJarVSFpvjOMRx3Pi6RkNBlmVsNhulRyF0vV5zd3dXfuO/gAEQyp9+Guy8ZDKZ8P7+ThiG2LatNMYsa5449TrGCiG2Eqqk+lkAI2AJxIAAXPDXu3IfHh4Iw5A4jvE8T2foB+lNrBAC13WJomi/1CtgUVwErAAbGJbLnUwmLJdLkiTBdV1N0R9GmVghRKOjmBTu7+9L2/PTAC6RPfWHGwERcnbYMyxEUUSapriuWzsmlSgTm2VZ7cO2baIoqpxpt1L/BcqGN5GfuwAc8MNduePxeCtXCFErLpW0FmtZsokmYuM4rn7800BOVCsg3XNjgezNA+AK/N/L5S4WCyzLqv0HV0XjdOtnit5QOaM3wE8D2QsTYIOUt/fmyPH3GvhOae8uS9/KmM/nDSI9jJKhQAjB29tbqzb8LAAPKaeY/WvdHCl3BD67vbYuqhc9J7Gk9bNAPjsWsKa+1I8skAuI7Hi5KuldrB/mUh3kbN9mcl5yMnJ7FeuneZ7qIWf5thlPlrczKk/DuqQ3sf5FIBP9AbKnqUojU2RGUZHjdkUvYv0gkL/8CDk2qs3NZUaRABf9ye2nx/6KXADokEreZowcGrx+5HYudmf9rwuBzDAs5KZNx3I7FetnFet/XXzcV3C7zRY6E+un+fZf1fpfF8W+ggfY3fXcTsT6m1zqGilVVBwqKGvXQsodIuVe6JerXayf5Zsqm/yoootenC99ifTLbb0JUwsb2WNgv8Ahckw8BgeZCRy6xz/oyURKwtHKo5jKnPXAs+FnQbvnJ3/sH8W0njh17zeW0vtewRZFQ4H/rf99AjglsWeGEasJI1YTRqwmjFhNGLGaMGI1YcRqwojVhBGrCSNWE0asJoxYTRixmjBiNWHEasKI1YQRqwkjVhNGrCa6efu7LqMW17rIbzCeCKcldsH/nz9oSvFduV+AP9WE04aTEfto1fv8QSUJ8vMEv6mLqQ1mjNWEEasJI1YTRqwmjFhNGLGaMGI1YcRqwojNSdN9xRGaczIrL108PT1xfX0NsLfMU1F3QRVnLfbl5YWrqyuAbR2aKtI0VVqz4GzFvr6+MhwO91af08lZjrFPT09kWaZM6jEVjs5S7GAwwHEcJVKPLcBzlmKLykpt8TxvW2KqcQxKIjhDPM/b1l48pkKTEVtCIXW5XB5d9sqI/YlCapIktWt2lWHEfsB13a3UtgXajNgc13VJkoTVaqWk6p0Ri5RarLzG47GSNpWJvbm5UdVUa5qkR4XUfcWBj6H1kraoZDmbzVTEo4S6GyqO42iRCgrEpmmKZVk4zulsO9TZUCmkrlYrZY//D+2raKSoCftZcByHLMu0SYUvOHkVUqMo0iYVvpjYQupms9EqFb6Q2OKfWOyrYq+S2mPscDgkjuNtevKZsCyLOI6V5qmHaDR5JUmy3UD+TBRL1S56akFtsae0APgMfJkxtmuMWE0YsZr4DwD+u8zkgiYvAAAAAElFTkSuQmCC"
+         transform="matrix(1,0,0,-1,0,1)"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeSpeed"
+         height="1"
+         width="1" /></g></g></svg>
