@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   viewBox="0 0 86 85"
+   height="85"
+   width="86"
+   xml:space="preserve"
+   id="svg2"
+   version="1.1"><metadata
+     id="metadata8"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs6"><mask
+       id="mask14"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       maskUnits="userSpaceOnUse"><image
+         id="image16"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFYAAABVCAAAAAD2qUyFAAAAAXNCSVQI5gpbmQAAAqxJREFUWIXtmM9LVFEUx897MzYzaPYDR6KImgppEWRKIogLN9mmoE0E/Vi4cWHQJmjRn+BKsZZBtnKRRpCLDBNaCNGPjVhCJJEZDYmOMaLNvDkthtGZc8+be+57z0B5ZzX3++753Dv33XvOuQ9gW8xi1UPNURsZPWoT79lZk8Guo9D6XQA2q+ak468bYX1biA2xITbE7jassz1YLuEYuANEeewWt8B2cIodLLc0wqfIusMUQKxQHM3KrLhwd5Spi2B3NycqerDLX1Kt/NyLX4Jxzn2Q1gglS9/SU1NLplREvKLFjnig4re4hnog4wWLnZRDjklyr36dGDuiwcqPbXWv3RAYQ2wQxsaRvCqhSziHODsxDrvatawENmTTGzrw7LwU63xeY6fGGn8p4f6ClWBEN7MBhKfMjhhgAQCgRoLl02Y1UyhkbZ0Cv+NSlzuOxTNzr8b/0Cf8DiF2IoeIq41EbXi4VgrYt6nHJCLiTS/YtvmyiP28rvLhaxYrOGVnJ46XtS6Nx/QuAmzt0/qKdudAINh7J4nQ2xYAtr5Pke4GgO06qEgX9vvHtqvSvjP+sUcZTcnf5lguPvC1thH2N6Ol/WM/qlLuk3/shHo9eLvgH/t9TJGGtFTBKbu/QYTpkSCwX3or20s3BOWfIII9vlPeWrz4Ve8iKj8Gu2c2f4+1vxN4CHY2ALxsvXa1JRlZX3jzZErSn8dGlJP1d3i4tnFP9qfbFVuhiGYLAJCdr/JQydVkbR1RIi033oFgza8O/LpwOwGXDbD81Z9b22jPZsWINWyJs/XlHFNibOxB9QkKbGcV+SH2v2HNC3HejWDz3i7+ygkm2PSiJ+wMFQg298gLdfq9rkdsyvxLTfq0fuTEgOEnq+zoKZXCvPpkU5y8OCvPBeuiij/0NU5g9g+4TgTicY2nXgAAAABJRU5ErkJggg=="
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeSpeed"
+         height="1"
+         width="1" /></mask></defs><g
+     transform="matrix(1.3333333,0,0,-1.3333333,0,85)"
+     id="g10"><g
+       transform="scale(64.5,63.75)"
+       id="g12"><image
+         id="image18"
+         mask="url(#mask14)"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFYAAABVCAYAAADTwhNZAAAABHNCSVQICAgIfAhkiAAABHlJREFUeJztnU1O40gYQF/ZiY27Ry0hbsCaLQsWnAFxobjtM3GDWbDwFqlPQHazopvg+Kd6UXbCtAZI7PriClNPigAllD+9fK6/VFVUlmUaj3VmEoUWRcF8PqeqKtq2JQgCq+UHQUDbtoP/P45jyrLk8vLSYlT/RkQsQBRFACilpC4xmPl8Tl3XotcQE1tVlXjwQ1FKobVsDWj3HvVs8GKF8GKF8GKF8GKF8GKF8GKF8GKF8GKF8GKF8GKF8GKF8GKF8GKF8GKF8GKFEJnobtsWpZSTnx4AB4lNRGwQBGitxWfph3KI2ETEJklCXddUVfXh6wBWq5VIDG9dPwgC4ji2fs3XiIi9uLiQKPao8I2XEFYyNk1Tbm9vAWiaZu/P/Ps6WYL3yu3XO4RhSFVVVtcZjBZ7f3/Pzc0NQRCglLK+OOMQ9D2EoiisyR0ltigKTk5OCMOQ9XptJaCpCMOQOI6tyR2VXkopZrPZ0UuFbRWmlOLx8XF0eYPFFkUB8GGX6pio65rZbMZyuRxd1mCx/fIhVwcBQ1FKjVpw1zO6KviM2GiAj68JPxK8WCG8WCG8WCG8WCGsz24dW09BqrtoXazNQA+xpF0Ka2L7nSy9CBv7D2YzsS0SG5RShGFI0zRWy7Ue+cvLC9fX17aLFaMoCpHqy3rjdXp6artIUaTaBN8r+ANbor1YIUbVsVprsVtpoVPztgdA364otqnwBPmXbPR1pOKXb3b3ZPGcwjdAAzHQAmH3t+p+B/gGiyYl127KdUrsYt1JjYFn4Nc7L54DX7o3IoK8HCZYqp/sTB27aFNIMBn5hMnU96iAn8BXoITFP6lwhPvhRMYu4hRKTDQrzC2/K0+YLLfbvx+NGxm7Av5if6k9T8BJ1+A5wuRiF8+pkTlUKpiGzYl7b8vkYkm6x9iphdL8cCVrpxcLdqJoMT0FR5herObjHsCu5ThUHUwv9rjmxXdmerFgLwobmW+J6cXq7jGWAHBoCdn0YhXwwvhIIkBDrsbPHdhgcrG5ysyoKWFc5vYTNY4wudgNJcO6SxozX/AT+G4zoHE4ITYPMjOpErGdFtwFjcn0ElCQ525UA+CIWOjk/sL0RXfZKaQw8wsNsHKnbu1xRix0cl8w3aavmGycYaLsPz2Yd89FmExdQx65JRUcEwud3L8x0iqM5NeNUrt9Lm8y83oHcWgQuCW/yjbzq4s4NVkMpoo4h/yHmzJf46TY1+Rlth32lsAP+WtOuqL7EMt/jhnn6tjPwv9+iZHzyzj7AJfL5V77pCS2iO67ncjG9qM/sS62P5t7F1xYpFzXtfUlnCDQK/hMOxXH4BsvIbxYIbxYIbxYIbxYIbzY/2DybfWetxks9vz83BRwhIfrvIetwcJgK2dnZyilmM8dWjA1kjiOqeuau7u70WWNGnmt12u01iRJQlmWImPuQ6CUIoqizW7KLBs/kT5K7NXVFQ8PD5RluTnRyAaH3j+rtaZpGuq6duPcLdieY/j6W+ds0J8oZJO3ykySxPp5jNYil/yavGPkN4DGXy2NB4uDAAAAAElFTkSuQmCC"
+         transform="matrix(1,0,0,-1,0,1)"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeSpeed"
+         height="1"
+         width="1" /></g></g></svg>

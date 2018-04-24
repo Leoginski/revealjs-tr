@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   viewBox="0 0 85 86"
+   height="86"
+   width="85"
+   xml:space="preserve"
+   id="svg2"
+   version="1.1"><metadata
+     id="metadata8"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs6"><mask
+       id="mask14"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       maskUnits="userSpaceOnUse"><image
+         id="image16"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFUAAABWCAAAAACbCoUoAAAAAXNCSVQI5gpbmQAAAxNJREFUWIXt2E9IFFEcB/Cvuv3R/aOBIOuqRAQhrusKya6HdLHddWcP0aWyP1r3DCShDuEpqOiPEvSHoEN/rMQOHiJIsyKCglIsEcoyMUxTyEqtrIN9O8yWO+5uO7PzOgj7u7zhvR+fmfd4M++9AZKRjGT8j0gRy2XWl01deSjWRPYASdYJVptJktMrxapPSZIsTBWqpsnFcoM4ssgrFclXFKSmuwJ+58J8EqFaK4KeAkWNbtXulcrNiyt1qRmugN8ZrSFxNbdS8uTHaEtQtfskd0S/dalGV8Bf8u8UrWpuZdCTFzdLk1rsD7hNahJVq0a35HOoTVan2jySx6aWVKc6/AG3UQMZXzW5JV+xNjGemucJVmjptwrV6Qu4MxIiQ6pl2ZSy0uyWvAn0OzwyL05+7gp7V/Jrb4xRXziQ2k2SU6HvY+mB+990kiQdcMgXhwFzdcuAfpEkHYbQx8xVs7nCqm8ow8JAufT5hJEAxK7cSTWpJtUlqQo+GoXU0DfrWfNLkeqIXHY02ssOPfohzO0gydEcAMDqPTcnRKwFwIpjr9+1rfl7k0yp5ZNuNQVAmuGn4unH9S41JakA5pWoZAXQu7t9QqetjLMk2QRYqk8nuOZG2ZEahkhyPQAgpfTgg+9CVCdJvl3YfxXUtY3rV2tI8pyiyuLXtv9wRO4J0wFgTFE109UFpz/gSniPCARJ8nG0lvza1tlERyBnjiTPR5+z6t68aKeSNpLk9O19hRFNAZJ83njvq3Z17Vyocb7naEW6oukMSTYBebuuv9eoYktYwsilbWFj8YYkywAAJu+pfk0qgsPhOTOdDXa5fgNJDi9Mm5IYYxHjtGfe261M7ztRZUopHyLJC4pM285rkWMR+wxp29E6qkgdG5TL8sWZxo0nX6hVARirjvdFPEdb1FTH/ruzKlUAsDd0ToejvZaYndveOvpLpQrAuvXyyB+0PetfmcZ+9SqA9MojTz58HLzqj5PXI6tR//BED1NW/B1Jp6yKOwwBADaRJO+IRYH6Sc7fyhb9rxir1n15JZhMRjKWZPwGaiZMLCg0IjcAAAAASUVORK5CYII="
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeSpeed"
+         height="1"
+         width="1" /></mask></defs><g
+     transform="matrix(1.3333333,0,0,-1.3333333,0,86)"
+     id="g10"><g
+       transform="scale(63.75,64.5)"
+       id="g12"><image
+         id="image18"
+         mask="url(#mask14)"
+         xlink:href="data:image/png;base64,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"
+         transform="matrix(1,0,0,-1,0,1)"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeSpeed"
+         height="1"
+         width="1" /></g></g></svg>
