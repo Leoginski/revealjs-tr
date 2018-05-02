@@ -1,146 +1,434 @@
 <!doctype html>
-<html>
+<html lang="en">
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<head>
+		<meta charset="utf-8">
 
-	<title>Reveal.JS</title>
+		<title>reveal.js – The HTML Presentation Framework</title>
 
-	<link rel="stylesheet" href="css/reveal.css">
-	<link rel="stylesheet" href="css/theme/thomsonreuters.css">
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
 
-	<!-- Theme used for syntax highlighting of code -->
-	<link rel="stylesheet" href="lib/css/zenburn.css">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-	<!-- Printing and PDF exports -->
-	<script>
-		var link = document.createElement('link');
-		link.rel = 'stylesheet';
-		link.type = 'text/css';
-		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
-		document.getElementsByTagName('head')[0].appendChild(link);
-	</script>
-</head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<body>
-	<div class="reveal">
-		<div class="slides">
-			<section>
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/thomsonreuters.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
 				<section>
-					<h2>Welcome to Reveal.js</h2>
-
-					<p>The slide can be controlled with spacebar, touchscreen, keyboard arrows or just by clicking the direction you want.</p>
-
-					<img class="simple" src="./img/arrow down.png"/>
-				</section>
-				<section>
-
-					<h3>An Abstract About</h3>
-
-					<p>It is framework for easily creating beautiful presentations using HTML. You can Check out the live
-						<a href="http://revealjs.com/">demo</a>.
-
-						<p>Reveal.js comes with a broad range of features including nested slides, Markdown contents, PDF export, speaker notes
-							and a JavaScript API.</p>
-
-				</section>
-				<section data-transition-speed="fast">
-
-					<p>This month I decided to make an abstract about Reveal.JS, the HTML slides framework. Yes, you’ve read it right, it a
-						presentation about presentations.</p>
-
-				</section>
-				<section data-transition="zoom">
-					<h2>This slide will override the presentation transition and zoom!</h2>
-					<p class="fragment grow">grow</p>
-					<p class="fragment shrink">shrink</p>
-					<p class="fragment fade-out">fade-out</p>
-					<p class="fragment fade-up">fade-up (also down, left and right!)</p>
-					<p class="fragment current-visible">visible only once</p>
-					<p class="fragment highlight-current-blue">blue only once</p>
-					<p class="fragment highlight-red">highlight-red
-						<p class="fragment highlight-green">highlight-green </p>
-						<p class="fragment highlight-blue">highlight-blue</p>
+					<h1>Reveal.js</h1>
+					<h3>The HTML Presentation Framework</h3>
+					<p>
+						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> and <a href="https://github.com/hakimel/reveal.js/graphs/contributors">contributors</a></small>
 					</p>
 				</section>
 
-				<section data-transition-speed="fast">
-					<h2>Choose from three transition speeds: default, fast or slow!</h2>
-				</section>
-				<section data-transition="slide">
-					The train goes on …
-				</section>
-				<section data-transition="slide">
-					and on …
-				</section>
-				<section data-transition="slide-in fade-out">
-					and stops.
-				</section>
-				<section data-transition="fade-in slide-out">
-					(Passengers entering and leaving)
-				</section>
-				<section data-transition="slide">
-					And it starts again.
-				</section>
 				<section>
-
+					<h2>Hello There</h2>
+					<p>
+						reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
+					</p>
 				</section>
-			</section>
-			<section>
-				<pre>
-					<code data-trim data-noescape>
-					(def lazy-fib
-					  (concat
-					   [0 1]
-					   <mark>((fn rfib [a b]</mark>
-							(lazy-cons (+ a b) (rfib b (+ a b)))) 0 1)))
-					</code>
-				</pre>
-			</section>
-			<section>
 
-			</section>
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>Vertical Slides</h2>
+						<p>Slides can be nested inside of each other.</p>
+						<p>Use the <em>Space</em> key to navigate through all slides.</p>
+						<br>
+						<a href="#" class="navigate-down">
+							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+						</a>
+					</section>
+					<section>
+						<h2>Basement Level 1</h2>
+						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+					</section>
+					<section>
+						<h2>Basement Level 2</h2>
+						<p>That's it, time to go back up.</p>
+						<br>
+						<a href="#/2">
+							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
+						</a>
+					</section>
+				</section>
+
+				<section>
+					<h2>Slides</h2>
+					<p>
+						Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at <a href="https://slides.com" target="_blank">https://slides.com</a>.
+					</p>
+				</section>
+
+				<section>
+					<h2>Point of View</h2>
+					<p>
+						Press <strong>ESC</strong> to enter the slide overview.
+					</p>
+					<p>
+						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
+					</p>
+				</section>
+
+				<section>
+					<h2>Touch Optimized</h2>
+					<p>
+						Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
+					</p>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						## Markdown support
+
+						Write content using inline or external Markdown.
+						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+
+						```
+						<section data-markdown>
+						  ## Markdown support
+
+						  Write content using inline or external Markdown.
+						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+						</section>
+						```
+					</script>
+				</section>
+
+				<section>
+					<section id="fragments">
+						<h2>Fragments</h2>
+						<p>Hit the next arrow...</p>
+						<p class="fragment">... to step through ...</p>
+						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
+
+						<aside class="notes">
+							This slide has fragments which are also stepped through in the notes window.
+						</aside>
+					</section>
+					<section>
+						<h2>Fragment Styles</h2>
+						<p>There's different types of fragments, like:</p>
+						<p class="fragment grow">grow</p>
+						<p class="fragment shrink">shrink</p>
+						<p class="fragment fade-out">fade-out</p>
+						<p class="fragment fade-up">fade-up (also down, left and right!)</p>
+						<p class="fragment current-visible">current-visible</p>
+						<p>Highlight <span class="fragment highlight-red">red</span> <span class="fragment highlight-blue">blue</span> <span class="fragment highlight-green">green</span></p>
+					</section>
+				</section>
+
+				<section id="transitions">
+					<h2>Transition Styles</h2>
+					<p>
+						You can select from different transitions, like: <br>
+						<a href="?transition=none#/transitions">None</a> -
+						<a href="?transition=fade#/transitions">Fade</a> -
+						<a href="?transition=slide#/transitions">Slide</a> -
+						<a href="?transition=convex#/transitions">Convex</a> -
+						<a href="?transition=concave#/transitions">Concave</a> -
+						<a href="?transition=zoom#/transitions">Zoom</a>
+					</p>
+				</section>
+
+				<section id="themes">
+					<h2>Themes</h2>
+					<p>
+						reveal.js comes with a few themes built in: <br>
+						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
+					</p>
+				</section>
+
+				<section>
+					<section data-background="#dddddd">
+						<h2>Slide Backgrounds</h2>
+						<p>
+							Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
+						</p>
+						<a href="#" class="navigate-down">
+							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+						</a>
+					</section>
+					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png">
+						<h2>Image Backgrounds</h2>
+						<pre><code class="hljs">&lt;section data-background="image.png"&gt;</code></pre>
+					</section>
+					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
+						<h2>Tiled Backgrounds</h2>
+						<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
+					</section>
+					<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
+						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
+							<h2>Video Backgrounds</h2>
+							<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
+						</div>
+					</section>
+					<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
+						<h2>... and GIFs!</h2>
+					</section>
+				</section>
+
+				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+					<h2>Background Transitions</h2>
+					<p>
+						Different background transitions are available via the backgroundTransition option. This one's called "zoom".
+					</p>
+					<pre><code class="hljs">Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
+				</section>
+
+				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
+					<h2>Background Transitions</h2>
+					<p>
+						You can override background transitions per-slide.
+					</p>
+					<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
+				</section>
+
+				<section>
+					<h2>Pretty Code</h2>
+					<pre><code class="hljs" data-trim contenteditable>
+function linkify( selector ) {
+  if( supports3DTransforms ) {
+
+    var nodes = document.querySelectorAll( selector );
+
+    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
+      var node = nodes[i];
+
+      if( !node.className ) {
+        node.className += ' roll';
+      }
+    }
+  }
+}
+					</code></pre>
+					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
+				</section>
+
+				<section>
+					<h2>Marvelous List</h2>
+					<ul>
+						<li>No order here</li>
+						<li>Or here</li>
+						<li>Or here</li>
+						<li>Or here</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Fantastic Ordered List</h2>
+					<ol>
+						<li>One is smaller than...</li>
+						<li>Two is smaller than...</li>
+						<li>Three!</li>
+					</ol>
+				</section>
+
+				<section>
+					<h2>Tabular Tables</h2>
+					<table>
+						<thead>
+							<tr>
+								<th>Item</th>
+								<th>Value</th>
+								<th>Quantity</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Apples</td>
+								<td>$1</td>
+								<td>7</td>
+							</tr>
+							<tr>
+								<td>Lemonade</td>
+								<td>$2</td>
+								<td>18</td>
+							</tr>
+							<tr>
+								<td>Bread</td>
+								<td>$3</td>
+								<td>2</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+
+				<section>
+					<h2>Clever Quotes</h2>
+					<p>
+						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">The nice thing about standards is that there are so many to choose from</q> and block:
+					</p>
+					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
+						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
+					</blockquote>
+				</section>
+
+				<section>
+					<h2>Intergalactic Interconnections</h2>
+					<p>
+						You can link between slides internally,
+						<a href="#/19">like this</a>.
+					</p>
+				</section>
+
+				<section>
+					<h2>Speaker View</h2>
+					<p>There's a <a href="https://github.com/hakimel/reveal.js#speaker-notes">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
+					<p>Press the <em>S</em> key to try it out.</p>
+
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
+
+				<section>
+					<h2>Export to PDF</h2>
+					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:</p>
+					<iframe data-src="https://www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+				</section>
+
+				<section>
+					<h2>Global State</h2>
+					<p>
+						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
+						will be added as a class to the document element when the slide is open. This lets you
+						apply broader style changes, like switching the page background.
+					</p>
+				</section>
+
+				<section data-state="customevent">
+					<h2>State Events</h2>
+					<p>
+						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
+					</p>
+					<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
+Reveal.addEventListener( 'customevent', function() {
+	console.log( '"customevent" has fired' );
+} );
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>Take a Moment</h2>
+					<p>
+						Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
+					</p>
+				</section>
+
+				<section>
+					<h2>Much more</h2>
+					<ul>
+						<li>Right-to-left support</li>
+						<li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
+						<li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
+						<li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
+						<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
+					</ul>
+				</section>
+
+				<section style="text-align: left;">
+					<h1>THE END</h1>
+					<p>
+						- <a href="https://slides.com">Try the online editor</a> <br>
+						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
+					</p>
+				</section>
+
+			</div>
+
 		</div>
-	</div>
-	<div title="GitHub" class="share-reveal" style="display: block; position: absolute; bottom: 16px; left: 50%; margin-left: -139px; z-index: 20;">
-		<a class="share-reveal-editor" href="https://github.com/Leoginski" target="blank">
-			<svg height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true">
-				<path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
-			</svg>
-			Leoginski
-		</a>
-		<!--<a href="https://www.linkedin.com/in/leonardo-s-6297ba139/" target="blank">
-			<svg class="share-reveal-logo-full" height="283.47794" viewBox="0 0 283.79843 283.47794" version="1.1" width="283.79843">
-				<path d="M 17.318359,0 12.527344,2.8164062 C 7.0775639,6.0198159 2.2881313,12.044789 0.80078125,17.568359 0.13634125,20.035889 -0.12151562,63.39182 0.05273437,143.66406 L 0.31835938,266 3.0917969,270.71484 c 3.13123,5.32673 7.9433591,9.38352 13.4746091,11.35743 3.05337,1.08964 26.296835,1.34711 124.824214,1.38281 136.10232,0.0493 126.97332,0.55206 134.95508,-7.42969 7.98175,-7.98176 7.47899,1.1492 7.42969,-134.95312 C 283.73969,42.544867 283.4822,19.301417 282.39258,16.248047 280.41866,10.716797 276.36189,5.9027141 271.03516,2.7714844 L 266.31836,0 h -124.5 z m 60.697266,49.472656 c 6.24589,0.0411 12.437477,2.546937 16.523437,7.503906 9.006518,10.92647 5.814058,27.243536 -6.599609,33.728516 -7.09817,3.7081 -12.934937,3.721632 -20.185547,0.04492 -7.39347,-3.74914 -11.162232,-9.255802 -11.732422,-17.138672 -0.51881,-7.17244 0.991972,-12.125959 5.144532,-16.855469 4.30375,-4.9017 10.603719,-7.324353 16.849609,-7.283203 z M 186.90039,102.60938 c 8.40328,-0.0947 13.45918,1.11274 20.66406,4.64062 9.84594,4.82109 15.68604,13.71708 18.68555,28.45703 2.03086,9.97988 2.3479,82.61304 0.36914,84.5918 -1.47028,1.47028 -33.50884,1.66956 -35.80078,0.22265 -1.27202,-0.80302 -1.57599,-6.386 -2,-36.73437 -0.5345,-38.25694 -0.62298,-38.92183 -5.82422,-43.62891 -5.33273,-4.82605 -17.62548,-3.95091 -22.88086,1.62891 -5.40584,5.73958 -5.63372,7.37997 -6.06445,43.71094 -0.25018,21.10182 -0.78128,33.96164 -1.43555,34.75 -0.75619,0.91114 -5.61007,1.25195 -17.8457,1.25195 -13.94497,0 -17.07304,-0.26837 -18.37696,-1.57227 -1.39096,-1.39098 -1.57024,-7.90764 -1.55664,-56.75 0.009,-33.02679 0.3973,-55.77991 0.96485,-56.67773 0.78243,-1.23774 3.93167,-1.5 18.01953,-1.5 19.0222,0 18.95893,-0.0243 18.98633,6.83398 l 0.0137,3.83594 4.60352,-4.05273 c 6.61382,-5.82172 13.87018,-8.33522 25.65624,-8.89063 1.35314,-0.0638 2.6218,-0.10366 3.82227,-0.11718 z M 77.384766,104.5 c 8.81752,0 16.4043,0.44876 17.5,1.03516 1.87716,1.00463 1.933593,2.6949 1.933593,57.29882 0,42.42819 -0.294318,56.55995 -1.199218,57.46485 -1.47082,1.47082 -33.509982,1.67019 -35.800782,0.22265 -1.29845,-0.82048 -1.535807,-8.40771 -1.773437,-56.46093 -0.26996,-54.58961 -0.24088,-55.54623 1.75,-57.53711 1.85928,-1.85928 3.294584,-2.02344 17.589844,-2.02344 z"
-				 style="fill:#0096d2" />
-			</svg>
-		</a> -->
-		<a title="Linkedin" class="share-reveal-linkedin" href="https://www.linkedin.com/in/leonardo-s-6297ba139/" target="blank">
-			<svg class="share-reveal-logo" viewBox="0 0 222.48877 221.96065" height="221.96065" width="222.48877" version="1.1">
-				<path d="M 26.203125 0.00390625 C 16.17547 -0.15234355 5.9987444 5.1911688 1.5527344 15.748047 C -0.45741563 20.521067 -0.52983065 30.469476 1.4121094 35.117188 C 3.5437594 40.218947 9.9006435 46.945843 14.621094 49.095703 C 19.260464 51.208633 28.485683 51.531496 34.314453 49.785156 C 39.976173 48.088866 46.442543 41.966196 49.101562 35.785156 C 51.884703 29.315556 51.566281 19.685637 48.363281 13.460938 C 43.783955 4.5614927 35.051056 0.14177372 26.203125 0.00390625 z M 169.62109 70.654297 C 153.34448 70.654297 140.65236 75.650554 130.41797 86.083984 C 127.24715 89.316464 124.10065 91.960938 123.42578 91.960938 C 122.57192 91.960938 122.11123 89.299918 121.91016 83.210938 L 121.62109 74.460938 L 100.62109 74.460938 L 79.621094 74.460938 L 79.363281 146.96094 C 79.221001 186.83594 79.317551 220.02344 79.580078 220.71094 C 79.941508 221.65746 85.285974 221.96094 101.58984 221.96094 L 123.12109 221.96094 L 123.12891 187.21094 C 123.14191 134.56722 124.48913 124.8806 132.93359 116.65234 C 138.17376 111.54633 143.22311 109.71914 152.27734 109.65234 C 162.63623 109.57584 168.31759 112.38831 172.77734 119.80664 C 177.65027 127.91224 178.12109 133.20422 178.12109 179.79297 L 178.12109 221.96094 L 200.0625 221.96094 C 212.13004 221.96094 222.17622 221.62344 222.38672 221.21094 C 222.59722 220.79844 222.47382 196.83594 222.11328 167.96094 C 221.49882 118.74522 221.3257 114.97866 219.3418 107.75391 C 212.3752 82.383765 196.65586 70.654297 169.62109 70.654297 z M 47.121094 73.921875 L 25.371094 74.191406 L 3.6210938 74.460938 L 3.3652344 148.21094 L 3.1074219 221.96094 L 25.115234 221.96094 L 47.121094 221.96094 L 47.121094 147.94141 L 47.121094 73.921875 z "
-				 style="fill:#ffffff" />
-			</svg>
-		</a>
-		<a title="TheHub" href="https://thehub.thomsonreuters.com/people/6068836" target="blank">
-			<img class="share-reveal-logo-full" src="./img/tr-transparent.png" />
-		</a>
-	</div>
 
-	<script src="lib/js/head.min.js"></script>
-	<script src="js/reveal.js"></script>
-	<script>
-		Reveal.initialize({
-			parallaxBackgroundImage: './img/tr-opa.png',
-			dependencies: [
-				{ src: 'plugin/markdown/marked.js' },
-				{ src: 'plugin/markdown/markdown.js' },
-				{ src: 'plugin/notes/notes.js', async: true },
-				{ src: 'plugin/zoom-js/zoom.js', async: true },
-				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
-			]
-		});
-	</script>
-</body>
+		<div title="GitHub" class="share-reveal" style="display: block; position: absolute; bottom: 16px; left: 50%; margin-left: -139px; z-index: 20;">
+			<a class="share-reveal-editor" href="https://github.com/Leoginski" target="blank">
+				<svg height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true">
+					<path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+				</svg>
+				Leoginski
+			</a>
+			<!--<a href="https://www.linkedin.com/in/leonardo-s-6297ba139/" target="blank">
+				<svg class="share-reveal-logo-full" height="283.47794" viewBox="0 0 283.79843 283.47794" version="1.1" width="283.79843">
+					<path d="M 17.318359,0 12.527344,2.8164062 C 7.0775639,6.0198159 2.2881313,12.044789 0.80078125,17.568359 0.13634125,20.035889 -0.12151562,63.39182 0.05273437,143.66406 L 0.31835938,266 3.0917969,270.71484 c 3.13123,5.32673 7.9433591,9.38352 13.4746091,11.35743 3.05337,1.08964 26.296835,1.34711 124.824214,1.38281 136.10232,0.0493 126.97332,0.55206 134.95508,-7.42969 7.98175,-7.98176 7.47899,1.1492 7.42969,-134.95312 C 283.73969,42.544867 283.4822,19.301417 282.39258,16.248047 280.41866,10.716797 276.36189,5.9027141 271.03516,2.7714844 L 266.31836,0 h -124.5 z m 60.697266,49.472656 c 6.24589,0.0411 12.437477,2.546937 16.523437,7.503906 9.006518,10.92647 5.814058,27.243536 -6.599609,33.728516 -7.09817,3.7081 -12.934937,3.721632 -20.185547,0.04492 -7.39347,-3.74914 -11.162232,-9.255802 -11.732422,-17.138672 -0.51881,-7.17244 0.991972,-12.125959 5.144532,-16.855469 4.30375,-4.9017 10.603719,-7.324353 16.849609,-7.283203 z M 186.90039,102.60938 c 8.40328,-0.0947 13.45918,1.11274 20.66406,4.64062 9.84594,4.82109 15.68604,13.71708 18.68555,28.45703 2.03086,9.97988 2.3479,82.61304 0.36914,84.5918 -1.47028,1.47028 -33.50884,1.66956 -35.80078,0.22265 -1.27202,-0.80302 -1.57599,-6.386 -2,-36.73437 -0.5345,-38.25694 -0.62298,-38.92183 -5.82422,-43.62891 -5.33273,-4.82605 -17.62548,-3.95091 -22.88086,1.62891 -5.40584,5.73958 -5.63372,7.37997 -6.06445,43.71094 -0.25018,21.10182 -0.78128,33.96164 -1.43555,34.75 -0.75619,0.91114 -5.61007,1.25195 -17.8457,1.25195 -13.94497,0 -17.07304,-0.26837 -18.37696,-1.57227 -1.39096,-1.39098 -1.57024,-7.90764 -1.55664,-56.75 0.009,-33.02679 0.3973,-55.77991 0.96485,-56.67773 0.78243,-1.23774 3.93167,-1.5 18.01953,-1.5 19.0222,0 18.95893,-0.0243 18.98633,6.83398 l 0.0137,3.83594 4.60352,-4.05273 c 6.61382,-5.82172 13.87018,-8.33522 25.65624,-8.89063 1.35314,-0.0638 2.6218,-0.10366 3.82227,-0.11718 z M 77.384766,104.5 c 8.81752,0 16.4043,0.44876 17.5,1.03516 1.87716,1.00463 1.933593,2.6949 1.933593,57.29882 0,42.42819 -0.294318,56.55995 -1.199218,57.46485 -1.47082,1.47082 -33.509982,1.67019 -35.800782,0.22265 -1.29845,-0.82048 -1.535807,-8.40771 -1.773437,-56.46093 -0.26996,-54.58961 -0.24088,-55.54623 1.75,-57.53711 1.85928,-1.85928 3.294584,-2.02344 17.589844,-2.02344 z"
+					 style="fill:#0096d2" />
+				</svg>
+			</a> -->
+			<a title="Linkedin" class="share-reveal-linkedin" href="https://www.linkedin.com/in/leonardo-s-6297ba139/" target="blank">
+				<svg class="share-reveal-logo" viewBox="0 0 222.48877 221.96065" height="221.96065" width="222.48877" version="1.1">
+					<path d="M 26.203125 0.00390625 C 16.17547 -0.15234355 5.9987444 5.1911688 1.5527344 15.748047 C -0.45741563 20.521067 -0.52983065 30.469476 1.4121094 35.117188 C 3.5437594 40.218947 9.9006435 46.945843 14.621094 49.095703 C 19.260464 51.208633 28.485683 51.531496 34.314453 49.785156 C 39.976173 48.088866 46.442543 41.966196 49.101562 35.785156 C 51.884703 29.315556 51.566281 19.685637 48.363281 13.460938 C 43.783955 4.5614927 35.051056 0.14177372 26.203125 0.00390625 z M 169.62109 70.654297 C 153.34448 70.654297 140.65236 75.650554 130.41797 86.083984 C 127.24715 89.316464 124.10065 91.960938 123.42578 91.960938 C 122.57192 91.960938 122.11123 89.299918 121.91016 83.210938 L 121.62109 74.460938 L 100.62109 74.460938 L 79.621094 74.460938 L 79.363281 146.96094 C 79.221001 186.83594 79.317551 220.02344 79.580078 220.71094 C 79.941508 221.65746 85.285974 221.96094 101.58984 221.96094 L 123.12109 221.96094 L 123.12891 187.21094 C 123.14191 134.56722 124.48913 124.8806 132.93359 116.65234 C 138.17376 111.54633 143.22311 109.71914 152.27734 109.65234 C 162.63623 109.57584 168.31759 112.38831 172.77734 119.80664 C 177.65027 127.91224 178.12109 133.20422 178.12109 179.79297 L 178.12109 221.96094 L 200.0625 221.96094 C 212.13004 221.96094 222.17622 221.62344 222.38672 221.21094 C 222.59722 220.79844 222.47382 196.83594 222.11328 167.96094 C 221.49882 118.74522 221.3257 114.97866 219.3418 107.75391 C 212.3752 82.383765 196.65586 70.654297 169.62109 70.654297 z M 47.121094 73.921875 L 25.371094 74.191406 L 3.6210938 74.460938 L 3.3652344 148.21094 L 3.1074219 221.96094 L 25.115234 221.96094 L 47.121094 221.96094 L 47.121094 147.94141 L 47.121094 73.921875 z "
+					 style="fill:#ffffff" />
+				</svg>
+			</a>
+			<a title="TheHub" href="https://thehub.thomsonreuters.com/people/6068836" target="blank">
+				<img class="share-reveal-logo-full" src="./img/tr-transparent.png" />
+			</a>
+		</div>
 
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				parallaxBackgroundImage: './img/tr-opa.png',
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
 </html>
